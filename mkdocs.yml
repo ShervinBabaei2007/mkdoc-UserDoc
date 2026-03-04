@@ -1,0 +1,33 @@
+site_name: Photoshop Beginner's Guide
+site_description: A step-by-step user guide for beginner Photoshop tasks
+site_author: Your Name Here
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Instructions:
+      - Effects & 3D: instructions/effects-3d.md
+      - Non-Destructive Editing: instructions/non-destructive.md
+      - Image Retouching: instructions/retouching.md
+      - Vectors & Pen Tool: instructions/vectors.md
+  - Glossary: glossary.md
+  - Troubleshooting: troubleshooting.md
+
+# Then create this folder structure inside `docs/`:
+# docs/
+# ├── index.md
+# ├── introduction.md
+# ├── instructions/
+# │   ├── effects-3d.md
+# │   ├── non-destructive.md
+# │   ├── retouching.md
+# │   └── vectors.md
+# ├── glossary.md
+# └── troubleshooting.md
