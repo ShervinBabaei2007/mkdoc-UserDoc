@@ -22,7 +22,7 @@ By the end of this guide, you will be able to:
 To follow these instructions, you will need:
 
 - Windows 11 operating system
-- Adobe Photoshop v27 (recommended)
+- Adobe Photoshop v27.x (recommended)
 - A BCIT email account to download and log in to Photoshop
 - Basic file management skills: creating, opening, and saving files in Photoshop
 
