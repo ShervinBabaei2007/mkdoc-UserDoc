@@ -30,7 +30,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Introduction: introduction.md
   - Instructions:
       - Effects & 3D: instructions/effects-3d.md
       - Non-Destructive Editing: instructions/non-destructive.md
