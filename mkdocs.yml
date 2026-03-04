@@ -24,6 +24,10 @@ theme:
       primary: blue
       accent: deep orange
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+
 nav:
   - Home: index.md
   - Introduction: introduction.md
