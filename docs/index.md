@@ -4,27 +4,27 @@
 
 The purpose of this document is to help beginners with Photoshop by providing step-by-step instructions for four key tasks: **applying effects, non-destructive editing, image retouching, and working with vectors**. This guide is intended for users with little to no prior Photoshop experience who want to build foundational skills. No advanced knowledge is required — just follow each step in order and refer to the Glossary or Troubleshooting sections if needed.
 
-## Is This Guide for you?
+## Is This Guide for You?
 
-THis guide is created for any beginner student in BCIT that uses **Windows Device**, and have no to bare minimum experience with Photoshop. We will go through a detail step by step insutrction with you to help you get familar with the mmost common functions that you will need to use for Photoshop.
+This guide is created for any beginner student at BCIT who uses a **Windows device** and has little to no experience with Photoshop. We will go through detailed, step-by-step instructions to help you get familiar with the most common functions you will need in Photoshop.
 
-## By the end of this guide
+## By the End of This Guide
 
-by the end of this guide, you will be able to
+By the end of this guide, you will be able to:
 
-1. Create and Apply and Customize Layer Styles
-2. Create and work non destructively instead of destructively
-3. Be able to Create and Retouch a Photo
-4. Create and Edit Vector Shapes Using the Pen Tools.
+1. Create, apply, and customize Layer Styles
+2. Work non-destructively instead of destructively
+3. Retouch a photo using key tools
+4. Create and edit vector shapes using the Pen Tool
 
-## Prerequisities
+## Prerequisites
 
 To follow these instructions, you will need:
 
-- A computer with Windows operating system
-- Have photoshop downloaded
-- bcit email account to login to photoshop/download
-- Able to create new file, open file, save file to a destination in Photoshop
+- Windows 11 operating system
+- Adobe Photoshop v27 (recommended)
+- A BCIT email account to download and log in to Photoshop
+- Basic file management skills: creating, opening, and saving files in Photoshop
 
 ## Typographical Conventions
 
