@@ -8,6 +8,21 @@ theme:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: red
+      accent: cyan
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
 
 nav:
   - Home: index.md
@@ -19,15 +34,3 @@ nav:
       - Vectors & Pen Tool: instructions/vectors.md
   - Glossary: glossary.md
   - Troubleshooting: troubleshooting.md
-
-# Then create this folder structure inside `docs/`:
-# docs/
-# ├── index.md
-# ├── introduction.md
-# ├── instructions/
-# │   ├── effects-3d.md
-# │   ├── non-destructive.md
-# │   ├── retouching.md
-# │   └── vectors.md
-# ├── glossary.md
-# └── troubleshooting.md
