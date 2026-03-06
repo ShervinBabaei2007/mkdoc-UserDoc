@@ -205,4 +205,4 @@ Saving as `.jpg` or `.png` will flatten all your layers and you will lose all yo
 
 ## Conclusion
 
-You have successfully completed the Non-Destructive Editing tutorial. You now know how to use _Adjustment Layers_ and _Smart Objects_ to edit images safely in Photoshop without ever permanently altering your original image. These techniques are the foundation of professional photo editing and will be used throughout the rest of this guide.
+You have successfully completed the Non-Destructive Editing tutorial. You now know how to use _Adjustment Layers_ and _Smart Objects_ to edit images safely in Photoshop without ever permanently altering your original image. These techniques are the foundation of professional photo editing and will be used throughout the rest of your careers.
