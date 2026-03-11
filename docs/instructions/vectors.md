@@ -144,16 +144,20 @@ The Pen Tool is located in the left toolbar and has several sub-tools hidden und
 
 The Pen Tool works very differently from a regular drawing tool. Instead of drawing freely, you place individual **anchor points** on the canvas one click at a time, and Photoshop draws a straight or curved path between each one. Understanding the difference between a regular click and a click-and-drag is the most important concept to grasp when using the Pen Tool.
 
+!!! warning
+    Before clicking, make sure the mode in the top options bar is set to **Shape** and not **Path** — otherwise your pen path will not create a filled vector layer.
+
+  ![Top options bar showing Shape mode selected](../assets/images/Pen%20tool/image.png)
+
+  *Figure 8: Top options bar set to Shape mode*
+
 1. **Click** anywhere on the canvas to place your first anchor point — this is the starting point of your shape
 2. **Click** a second location on the canvas to place another anchor point — Photoshop will automatically draw a straight line connecting the two points
 3. **Click and drag** instead of just clicking to create a **curved** path between points — as you drag, you will see a curve handle appear that controls the direction and intensity of the curve
 
     ![Two anchor points on the canvas connected by a smooth curved path with direction handles visible](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192407.png)
 
-    *Figure 8: A curved path created with two anchor points*
-
-!!! warning
-    Before clicking, make sure the mode in the top options bar is set to  **Shape** and not **Path** — otherwise your pen path will not create a filled vector layer.
+    *Figure 9: A curved path created with two anchor points*
 
 !!! note
     **Clicking** creates a sharp corner point, while **click and dragging** creates a smooth curved point. Most custom shapes use a combination of both — sharp corners for geometric areas and smooth curves for organic, flowing sections. It may take a few tries to get a feel for how the curve handles work, so do not get discouraged if it feels awkward at first.
@@ -170,7 +174,7 @@ Once you have placed your first few anchor points, you can continue building you
 
     ![Multiple anchor points on canvas forming an incomplete curved blob shape](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192506.png)
 
-    *Figure 9: Building a custom path with multiple anchor points*
+    *Figure 10: Building a custom path with multiple anchor points*
 
 !!! note
     Do not worry if your first attempt does not look perfect — the Pen Tool genuinely takes practice and even experienced designers find it tricky at first. You can always go back and adjust individual anchor points after you close the path, which is covered in Step 9.
@@ -186,11 +190,11 @@ An open path is just a line — it has a starting point and an ending point that
 
     ![Nearly closed path with cursor hovering near the starting anchor point](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192634.png)
 
-    *Figure 10: Hovering over the first anchor point to close the path*
+    *Figure 11: Hovering over the first anchor point to close the path*
 
     ![Fully closed path](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192716.png)
 
-    *Figure 11: A completed closed vector path*
+    *Figure 12: A completed closed vector path*
 
 3. **Confirm** the path is now fully closed — it will form a complete enclosed shape with no open gaps
 
@@ -203,7 +207,7 @@ An open path is just a line — it has a starting point and an ending point that
 
 One of the biggest advantages of working with vectors is that you can always go back and fine-tune your shape after drawing it. The **Direct Selection Tool** lets you click on any individual anchor point and drag it to a new position, reshaping that part of your vector without affecting the rest of the shape or having to redraw anything from scratch.
 
-1. **Select** the _Direct Selection Tool_ by pressing `A` on your keyboard — your cursor will change to a white arrow to indicate the tool is active
+1. **Select** the *Direct Selection Tool* by pressing `A` on your keyboard — your cursor will change to a white arrow to indicate the tool is active
 2. **Click** any anchor point on your shape to select it — the selected anchor point will turn solid blue, while unselected points remain hollow
 3. **Drag** the selected anchor point to a new position to adjust that portion of your shape — the surrounding paths will automatically update to follow the moved point
 
@@ -231,11 +235,11 @@ Now that you know the basics of both the Shape Tool and the Pen Tool, put your s
 
 ![Star and clover shapes showing filled vector versus anchor point structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193207.png)
 
-*Figure 12: Challenge — recreate the star and clover shapes using the Pen Tool*
+*Figure 13: Challenge — recreate the star and clover shapes using the Pen Tool*
 
 ![Christmas tree shape showing filled vector versus anchor point path structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193233.png)
 
-*Figure 13: Challenge — recreate the Christmas tree shape using the Pen Tool*
+*Figure 14: Challenge — recreate the Christmas tree shape using the Pen Tool*
 
 ---
 
