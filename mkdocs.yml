@@ -31,7 +31,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Instructions:
-      - Effects & 3D: instructions/effects-3d.md
+      - Layers & 3D: instructions/layerstyle-3d.md
       - Non-Destructive Editing: instructions/non-destructive.md
       - Image Retouching: instructions/retouching.md
       - Vectors & Pen Tool: instructions/vectors.md
