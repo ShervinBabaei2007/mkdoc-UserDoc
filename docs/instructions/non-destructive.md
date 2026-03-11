@@ -151,7 +151,7 @@ Converting to a _Smart Object_ allows you to apply filters non-destructively.
     _Figure 11: Smart Object icon confirming the conversion_
 
 !!! note
-    The small icon on the layer thumbnail confirms it is now a Smart Object. When you **double-click** on it, Photoshop opens the Smart Object as a separate file (`.psb`). You can move any layers or content related to your edit into this Smart Object to keep things organized. Any edits made inside will apply back to your original file. **Save and close** the tab when done to see your changes reflected. ✅
+    The small icon on the layer thumbnail confirms it is now a Smart Object. When you **double-click** on it, Photoshop opens the Smart Object as a separate file (`.psb`). You can move any layers or content related to your edit into this Smart Object to keep things organized. Any edits made inside will apply back to your original file. **Save and close** the tab when done to see your changes reflected.
 
 ---
 
