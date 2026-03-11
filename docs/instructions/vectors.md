@@ -91,6 +91,9 @@ Before you draw your shape, it is important to choose a fill color first. The fi
     *Figure 5: Selecting a blue fill color (#3760be)*
 
 !!! note
+    The small triangle icon (⚠️) that may appear next to your selected color is Photoshop's **out-of-gamut warning**. It means the color may not print accurately, but it is completely safe to ignore for digital projects like this one. Simply click [OK] to continue.
+
+!!! note
     The **new** box at the top of the Color Picker shows your newly selected color, while **current** shows the color that was previously active. This lets you compare the two side by side before confirming your choice.
 
 ---
