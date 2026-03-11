@@ -34,6 +34,8 @@ This section will walk you through each step of non-destructive editing in Photo
 
 _Figure 1: Practice image — British Shorthair cat with bow tie_
 
+Once downloaded, **locate** the file in your **Downloads** folder — it will be saved as a `.jpg` file.
+
 ---
 
 ### Step 2: Open the Image in Photoshop
@@ -50,7 +52,9 @@ _Figure 1: Practice image — British Shorthair cat with bow tie_
 
 ### Step 3: Duplicate the Background Layer
 
-Before making any edits, always duplicate your original layer to protect it.
+Before making any edits, always duplicate your original layer to protect it. If you do not see the Layers panel, go to [Window] → [Layers] to open it.
+
+  ![Enabling the layer panel](../assets/images/image%20copy.png)
 
 1. **Right-click** on the Background layer in the Layers panel
 2. **Select** [Duplicate Layer] or press `Ctrl + J`
@@ -83,6 +87,10 @@ This section demonstrates what happens when you edit destructively, so you under
 !!! warning
     This permanently changes your image pixels. If you close and reopen the file, you cannot undo this change.
 
+!!! warning
+    Before continuing, press `Ctrl + Z` to undo this change, or close the
+    file without saving and reopen it.
+
 ---
 
 ### Step 5: The Non-Destructive Way (The Right Way)
@@ -102,7 +110,7 @@ Instead of editing the image directly, we will add an _Adjustment Layer_ on top.
 
     _Figure 6: Adjusting the Hue slider_
 
-4. **Click** the **eye icon** next to the Adjustment Layer in the Layers panel to toggle it on and off — notice the original image is completely untouched underneath
+4. **Click** the **eye icon** (the small eye symbol on the far left of the layer row) next to the Adjustment Layer in the Layers panel to toggle it on and off
 
     ![Toggling the Adjustment Layer visibility](../assets/images/Screenshot%202026-03-05%20211852.png)
 
@@ -151,7 +159,7 @@ Converting to a _Smart Object_ allows you to apply filters non-destructively.
     _Figure 11: Smart Object icon confirming the conversion_
 
 !!! note
-    The small icon on the layer thumbnail confirms it is now a Smart Object. When you **double-click** on it, Photoshop opens the Smart Object as a separate file (`.psb`). You can move any layers or content related to your edit into this Smart Object to keep things organized. Any edits made inside will apply back to your original file. **Save and close** the tab when done to see your changes reflected.
+    The small icon on the layer thumbnail confirms it is now a Smart Object. This means any filters you apply will be editable and non-destructive. When you **double-click** on it, Photoshop opens the Smart Object as a separate file (`.psb`). You can move any layers or content related to your edit into this Smart Object to keep things organized. Any edits made inside will apply back to your original file. **Save and close** the tab when done to see your changes reflected.
 
 ---
 
@@ -163,7 +171,7 @@ Converting to a _Smart Object_ allows you to apply filters non-destructively.
 
     _Figure 12: Opening the Gaussian Blur filter_
 
-2. **Drag** the radius slider to adjust the blur amount
+2. **Drag** the radius slider to around **5–10 pixels** to see a visible blur effect on your image
 3. **Click** [OK]
 
     ![Gaussian Blur dialog](../assets/images/Screenshot%202026-03-05%20213634.png)
@@ -180,6 +188,8 @@ _Figure 14: Smart Filter visible in the Layers panel_
 ---
 
 ### Step 9: Edit the Smart Filter
+
+After applying the Gaussian Blur in Step 8, you will see the filter name listed directly beneath the Smart Object layer in the Layers panel.
 
 1. **Double-click** the Smart Filter name (e.g., _Gaussian Blur_) in the Layers panel
 2. **Adjust** the slider to a new value
