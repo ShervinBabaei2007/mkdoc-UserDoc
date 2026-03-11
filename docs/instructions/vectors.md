@@ -49,7 +49,7 @@ When you open Photoshop, you will land on the Home screen. From here, you need t
 
     *Figure 2: Navigating to File → New*
 
-3. **Set** your canvas size (e.g., 1920 x 1080 px) and **click** [Create] to open your blank canvas
+3. **Set** Width to `1920`, Height to `1080`, Resolution to `72`, and Color Mode to `RGB Color`, then **click** [Create]
 
 !!! note
     You can use any canvas size for this tutorial — the default settings work fine for beginners. The canvas size just determines how large your working area is and does not affect the quality of your vector shapes.
@@ -89,6 +89,9 @@ Before you draw your shape, it is important to choose a fill color first. The fi
     ![Color Picker with blue color selected showing hex value 3760be](../assets/images/shape%20tool/Screenshot%202026-03-10%20191639.png)
 
     *Figure 5: Selecting a blue fill color (#3760be)*
+
+!!! note
+    If you do not see the Fill option at the top, make sure the Rectangle Tool is still selected — the options bar changes depending on which tool is active.
 
 !!! note
     The small triangle icon (⚠️) that may appear next to your selected color is Photoshop's **out-of-gamut warning**. It means the color may not print accurately, but it is completely safe to ignore for digital projects like this one. Simply click [OK] to continue.
@@ -149,6 +152,9 @@ The Pen Tool works very differently from a regular drawing tool. Instead of draw
 
     *Figure 8: A curved path created with two anchor points*
 
+!!! warning
+    Before clicking, make sure the mode in the top options bar is set to  **Shape** and not **Path** — otherwise your pen path will not create a filled vector layer.
+
 !!! note
     **Clicking** creates a sharp corner point, while **click and dragging** creates a smooth curved point. Most custom shapes use a combination of both — sharp corners for geometric areas and smooth curves for organic, flowing sections. It may take a few tries to get a feel for how the curve handles work, so do not get discouraged if it feels awkward at first.
 
@@ -179,8 +185,10 @@ An open path is just a line — it has a starting point and an ending point that
 2. **Click** on the first anchor point to close the path and complete your shape
 
     ![Nearly closed path with cursor hovering near the starting anchor point](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192634.png)
-
     *Figure 10: Hovering over the first anchor point to close the path*
+
+    ![Fully closed path](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192716.png)
+    *Figure 11: A completed closed vector path*
 
 3. **Confirm** the path is now fully closed — it will form a complete enclosed shape with no open gaps
 
@@ -221,11 +229,11 @@ Now that you know the basics of both the Shape Tool and the Pen Tool, put your s
 
 ![Star and clover shapes showing filled vector versus anchor point structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193207.png)
 
-*Figure 11: Challenge — recreate the star and clover shapes using the Pen Tool*
+*Figure 12: Challenge — recreate the star and clover shapes using the Pen Tool*
 
 ![Christmas tree shape showing filled vector versus anchor point path structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193233.png)
 
-*Figure 12: Challenge — recreate the Christmas tree shape using the Pen Tool*
+*Figure 13: Challenge — recreate the Christmas tree shape using the Pen Tool*
 
 ---
 
