@@ -42,10 +42,10 @@ The following conventions are used throughout this guide:
 The following admonitions are used throughout this guide:
 
 !!! note
-Provides helpful tips or extra context to support your understanding.
+    Provides helpful tips or extra context to support your understanding.
 
 !!! warning
-Indicates an action that could cause data loss or an irreversible change.
+    Indicates an action that could cause data loss or an irreversible change.
 
 !!! danger
-Highlights a critical step that could damage your file if done incorrectly.
+    Highlights a critical step that could damage your file if done incorrectly.
