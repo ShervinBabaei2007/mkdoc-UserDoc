@@ -185,9 +185,11 @@ An open path is just a line — it has a starting point and an ending point that
 2. **Click** on the first anchor point to close the path and complete your shape
 
     ![Nearly closed path with cursor hovering near the starting anchor point](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192634.png)
+
     *Figure 10: Hovering over the first anchor point to close the path*
 
     ![Fully closed path](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192716.png)
+
     *Figure 11: A completed closed vector path*
 
 3. **Confirm** the path is now fully closed — it will form a complete enclosed shape with no open gaps
