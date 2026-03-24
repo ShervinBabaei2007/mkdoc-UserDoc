@@ -234,7 +234,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../effects-3d/" class="md-tabs__link">
+        <a href="../layerstyle-3d/" class="md-tabs__link">
           
   
   
@@ -410,14 +410,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../effects-3d/" class="md-nav__link">
+      <a href="../layerstyle-3d/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Effects & 3D
+    Layers & 3D
   
 
     
@@ -890,7 +890,7 @@
 <p><em>Figure 2: Navigating to File → New</em></p>
 </li>
 <li>
-<p><strong>Set</strong> your canvas size (e.g., 1920 x 1080 px) and <strong>click</strong> [Create] to open your blank canvas</p>
+<p><strong>Set</strong> Width to <code>1920</code>, Height to <code>1080</code>, Resolution to <code>72</code>, and Color Mode to <code>RGB Color</code>, then <strong>click</strong> [Create]</p>
 </li>
 </ol>
 <div class="admonition note">
@@ -931,6 +931,10 @@
 <p><em>Figure 5: Selecting a blue fill color (#3760be)</em></p>
 </li>
 </ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you do not see the Fill option at the top, make sure the Rectangle Tool is still selected — the options bar changes depending on which tool is active.</p>
+</div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The small triangle icon (⚠️) that may appear next to your selected color is Photoshop's <strong>out-of-gamut warning</strong>. It means the color may not print accurately, but it is completely safe to ignore for digital projects like this one. Simply click [OK] to continue.</p>
@@ -978,13 +982,19 @@
 <hr />
 <h3 id="step-6-draw-anchor-points-to-create-a-path">Step 6: Draw Anchor Points to Create a Path</h3>
 <p>The Pen Tool works very differently from a regular drawing tool. Instead of drawing freely, you place individual <strong>anchor points</strong> on the canvas one click at a time, and Photoshop draws a straight or curved path between each one. Understanding the difference between a regular click and a click-and-drag is the most important concept to grasp when using the Pen Tool.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Before clicking, make sure the mode in the top options bar is set to <strong>Shape</strong> and not <strong>Path</strong> — otherwise your pen path will not create a filled vector layer.</p>
+</div>
+<p><img alt="Top options bar showing Shape mode selected" src="../../assets/images/Pen%20tool/image.png" /></p>
+<p><em>Figure 8: Top options bar set to Shape mode</em></p>
 <ol>
 <li><strong>Click</strong> anywhere on the canvas to place your first anchor point — this is the starting point of your shape</li>
 <li><strong>Click</strong> a second location on the canvas to place another anchor point — Photoshop will automatically draw a straight line connecting the two points</li>
 <li>
 <p><strong>Click and drag</strong> instead of just clicking to create a <strong>curved</strong> path between points — as you drag, you will see a curve handle appear that controls the direction and intensity of the curve</p>
 <p><img alt="Two anchor points on the canvas connected by a smooth curved path with direction handles visible" src="../../assets/images/Pen%20tool/Screenshot%202026-03-10%20192407.png" /></p>
-<p><em>Figure 8: A curved path created with two anchor points</em></p>
+<p><em>Figure 9: A curved path created with two anchor points</em></p>
 </li>
 </ol>
 <div class="admonition note">
@@ -1000,7 +1010,7 @@
 <li>
 <p><strong>Keep adding</strong> points until your shape outline is almost complete — you should be able to see the rough shape forming from the connected paths</p>
 <p><img alt="Multiple anchor points on canvas forming an incomplete curved blob shape" src="../../assets/images/Pen%20tool/Screenshot%202026-03-10%20192506.png" /></p>
-<p><em>Figure 9: Building a custom path with multiple anchor points</em></p>
+<p><em>Figure 10: Building a custom path with multiple anchor points</em></p>
 </li>
 </ol>
 <div class="admonition note">
@@ -1015,7 +1025,9 @@
 <li>
 <p><strong>Click</strong> on the first anchor point to close the path and complete your shape</p>
 <p><img alt="Nearly closed path with cursor hovering near the starting anchor point" src="../../assets/images/Pen%20tool/Screenshot%202026-03-10%20192634.png" /></p>
-<p><em>Figure 10: Hovering over the first anchor point to close the path</em></p>
+<p><em>Figure 11: Hovering over the first anchor point to close the path</em></p>
+<p><img alt="Fully closed path" src="../../assets/images/Pen%20tool/Screenshot%202026-03-10%20192716.png" /></p>
+<p><em>Figure 12: A completed closed vector path</em></p>
 </li>
 <li>
 <p><strong>Confirm</strong> the path is now fully closed — it will form a complete enclosed shape with no open gaps</p>
@@ -1053,9 +1065,9 @@
 <h3 id="bonus-challenge">Bonus Challenge</h3>
 <p>Now that you know the basics of both the Shape Tool and the Pen Tool, put your skills to the test! The images below show two complex vector shapes alongside their underlying anchor point structures on the right side — study the position of each anchor point carefully before attempting to recreate the shapes using the Pen Tool.</p>
 <p><img alt="Star and clover shapes showing filled vector versus anchor point structure side by side" src="../../assets/images/Pen%20tool/Screenshot%202026-03-10%20193207.png" /></p>
-<p><em>Figure 11: Challenge — recreate the star and clover shapes using the Pen Tool</em></p>
+<p><em>Figure 13: Challenge — recreate the star and clover shapes using the Pen Tool</em></p>
 <p><img alt="Christmas tree shape showing filled vector versus anchor point path structure side by side" src="../../assets/images/Pen%20tool/Screenshot%202026-03-10%20193233.png" /></p>
-<p><em>Figure 12: Challenge — recreate the Christmas tree shape using the Pen Tool</em></p>
+<p><em>Figure 14: Challenge — recreate the Christmas tree shape using the Pen Tool</em></p>
 <hr />
 <h2 id="conclusion">Conclusion</h2>
 <p>You have successfully completed the Vector Shapes tutorial. You now know how to create precise vector shapes using the <strong>Shape Tool</strong>, draw fully custom vector paths using the <strong>Pen Tool</strong>, and fine-tune your shapes using the <strong>Direct Selection Tool</strong>. Because vectors are defined by mathematical paths rather than pixels, your shapes will always remain sharp and editable at any size — making these skills an essential foundation for any graphic design or illustration work you do in Photoshop.</p>

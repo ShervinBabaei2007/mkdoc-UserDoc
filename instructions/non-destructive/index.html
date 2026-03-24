@@ -13,7 +13,7 @@
       
       
       
-        <link rel="prev" href="../effects-3d/">
+        <link rel="prev" href="../layerstyle-3d/">
       
       
         <link rel="next" href="../retouching/">
@@ -234,7 +234,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../effects-3d/" class="md-tabs__link">
+        <a href="../layerstyle-3d/" class="md-tabs__link">
           
   
   
@@ -410,14 +410,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../effects-3d/" class="md-nav__link">
+      <a href="../layerstyle-3d/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Effects & 3D
+    Layers & 3D
   
 
     
@@ -846,8 +846,9 @@
 <p>This section will walk you through each step of non-destructive editing in Photoshop, from opening your image to saving your final file.</p>
 <h3 id="step-1-download-the-practice-image">Step 1: Download the Practice Image</h3>
 <p><strong>Download</strong> the practice image here: <a href="https://www.freepik.com/free-photo/adorable-british-shorthair-kitty-with-monochrome-wall-her_13863437.htm">Click to Download</a></p>
-<p><img alt="A British Shorthair cat wearing a yellow bow tie" src="../../assets/images/adorable-british-shorthair-kitty-with-monochrome-wall-her.jpg" /></p>
+<p><img alt="A British Shorthair cat wearing a yellow bow tie" src="../../assets/images/Non-destructive/adorable-british-shorthair-kitty-with-monochrome-wall-her.jpg" /></p>
 <p><em>Figure 1: Practice image — British Shorthair cat with bow tie</em></p>
+<p>Once downloaded, <strong>locate</strong> the file in your <strong>Downloads</strong> folder — it will be saved as a <code>.jpg</code> file.</p>
 <hr />
 <h3 id="step-2-open-the-image-in-photoshop">Step 2: Open the Image in Photoshop</h3>
 <ol>
@@ -862,12 +863,13 @@
 </div>
 <hr />
 <h3 id="step-3-duplicate-the-background-layer">Step 3: Duplicate the Background Layer</h3>
-<p>Before making any edits, always duplicate your original layer to protect it.</p>
+<p>Before making any edits, always duplicate your original layer to protect it. If you do not see the Layers panel, go to [Window] → [Layers] to open it.</p>
+<p><img alt="Enabling the layer panel" src="../../assets/images/Non-destructive/image%20copy.png" /></p>
 <ol>
 <li><strong>Right-click</strong> on the Background layer in the Layers panel</li>
 <li>
 <p><strong>Select</strong> [Duplicate Layer] or press <code>Ctrl + J</code></p>
-<p><img alt="Duplicating the background layer" src="../../assets/images/Screenshot%202026-03-05%20212708.png" /></p>
+<p><img alt="Duplicating the background layer" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20212708.png" /></p>
 <p><em>Figure 2: Duplicating the Background layer</em></p>
 </li>
 </ol>
@@ -883,15 +885,20 @@
 <li><strong>Drag</strong> the Hue slider to any value</li>
 <li>
 <p><strong>Click</strong> [OK]</p>
-<p><img alt="Hue/Saturation dialog box" src="../../assets/images/Screenshot%202026-03-05%20210209.png" /></p>
+<p><img alt="Hue/Saturation dialog box" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20210209.png" /></p>
 <p><em>Figure 3: Adjusting Hue/Saturation destructively</em></p>
-<p><img alt="Result of destructive edit" src="../../assets/images/image.png" /></p>
+<p><img alt="Result of destructive edit" src="../../assets/images/Non-destructive/image.png" /></p>
 <p><em>Figure 4: The image is permanently changed</em></p>
 </li>
 </ol>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>This permanently changes your image pixels. If you close and reopen the file, you cannot undo this change.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Before continuing, press <code>Ctrl + Z</code> to undo this change, or close the
+file without saving and reopen it.</p>
 </div>
 <hr />
 <h3 id="step-5-the-non-destructive-way-the-right-way">Step 5: The Non-Destructive Way (The Right Way)</h3>
@@ -900,22 +907,22 @@
 <li><strong>Go to</strong> [Layer] → [New Adjustment Layer] → [Hue/Saturation]</li>
 <li>
 <p><strong>Click</strong> [OK] on the dialog that appears</p>
-<p><img alt="Adding a new Adjustment Layer" src="../../assets/images/Screenshot%202026-03-05%20211220.png" /></p>
+<p><img alt="Adding a new Adjustment Layer" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20211220.png" /></p>
 <p><em>Figure 5: Adding a Hue/Saturation Adjustment Layer</em></p>
 </li>
 <li>
 <p><strong>Drag</strong> the Hue slider to -137</p>
-<p><img alt="Dragging the Hue slider" src="../../assets/images/Screenshot%202026-03-05%20211724.png" /></p>
+<p><img alt="Dragging the Hue slider" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20211724.png" /></p>
 <p><em>Figure 6: Adjusting the Hue slider</em></p>
 </li>
 <li>
-<p><strong>Click</strong> the <strong>eye icon</strong> next to the Adjustment Layer in the Layers panel to toggle it on and off — notice the original image is completely untouched underneath</p>
-<p><img alt="Toggling the Adjustment Layer visibility" src="../../assets/images/Screenshot%202026-03-05%20211852.png" /></p>
+<p><strong>Click</strong> the <strong>eye icon</strong> (the small eye symbol on the far left of the layer row) next to the Adjustment Layer in the Layers panel to toggle it on and off</p>
+<p><img alt="Toggling the Adjustment Layer visibility" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20211852.png" /></p>
 <p><em>Figure 7: Toggling the Adjustment Layer on and off</em></p>
 </li>
 <li>
 <p><strong>Double-click</strong> the Adjustment Layer thumbnail at any time to go back and change the values</p>
-<p><img alt="Double-clicking the Adjustment Layer" src="../../assets/images/Screenshot%202026-03-05%20212253.png" /></p>
+<p><img alt="Double-clicking the Adjustment Layer" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20212253.png" /></p>
 <p><em>Figure 8: Re-editing the Adjustment Layer</em></p>
 </li>
 </ol>
@@ -931,7 +938,7 @@
 <li><strong>Type</strong> a descriptive name such as <code>Editing Layer</code></li>
 <li>
 <p><strong>Press</strong> <code>Enter</code> to confirm</p>
-<p><img alt="Renaming a layer" src="../../assets/images/Screenshot%202026-03-05%20212925.png" /></p>
+<p><img alt="Renaming a layer" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20212925.png" /></p>
 <p><em>Figure 9: Renaming the layer</em></p>
 </li>
 </ol>
@@ -942,33 +949,33 @@
 <li><strong>Right-click</strong> on your duplicated layer in the Layers panel</li>
 <li>
 <p><strong>Click</strong> [Convert to Smart Object]</p>
-<p><img alt="Converting to Smart Object" src="../../assets/images/Screenshot%202026-03-05%20213145.png" /></p>
+<p><img alt="Converting to Smart Object" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20213145.png" /></p>
 <p><em>Figure 10: Converting the layer to a Smart Object</em></p>
 </li>
 <li>
 <p><strong>Confirm</strong> the conversion by looking for the small icon on the layer thumbnail</p>
-<p><img alt="Smart Object icon on layer" src="../../assets/images/Screenshot%202026-03-05%20213224.png" /></p>
+<p><img alt="Smart Object icon on layer" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20213224.png" /></p>
 <p><em>Figure 11: Smart Object icon confirming the conversion</em></p>
 </li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The small icon on the layer thumbnail confirms it is now a Smart Object. When you <strong>double-click</strong> on it, Photoshop opens the Smart Object as a separate file (<code>.psb</code>). You can move any layers or content related to your edit into this Smart Object to keep things organized. Any edits made inside will apply back to your original file. <strong>Save and close</strong> the tab when done to see your changes reflected.</p>
+<p>The small icon on the layer thumbnail confirms it is now a Smart Object. This means any filters you apply will be editable and non-destructive. When you <strong>double-click</strong> on it, Photoshop opens the Smart Object as a separate file (<code>.psb</code>). You can move any layers or content related to your edit into this Smart Object to keep things organized. Any edits made inside will apply back to your original file. <strong>Save and close</strong> the tab when done to see your changes reflected.</p>
 </div>
 <hr />
 <h3 id="step-8-apply-a-filter-to-the-smart-object">Step 8: Apply a Filter to the Smart Object</h3>
 <ol>
 <li>
 <p><strong>Click</strong> [Filter] → [Blur] → [Gaussian Blur]</p>
-<p><img alt="Navigating to Gaussian Blur" src="../../assets/images/Screenshot%202026-03-05%20213519.png" /></p>
+<p><img alt="Navigating to Gaussian Blur" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20213519.png" /></p>
 <p><em>Figure 12: Opening the Gaussian Blur filter</em></p>
 </li>
 <li>
-<p><strong>Drag</strong> the radius slider to adjust the blur amount</p>
+<p><strong>Drag</strong> the radius slider to around <strong>5–10 pixels</strong> to see a visible blur effect on your image</p>
 </li>
 <li>
 <p><strong>Click</strong> [OK]</p>
-<p><img alt="Gaussian Blur dialog" src="../../assets/images/Screenshot%202026-03-05%20213634.png" /></p>
+<p><img alt="Gaussian Blur dialog" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20213634.png" /></p>
 <p><em>Figure 13: Adjusting the Gaussian Blur radius</em></p>
 </li>
 </ol>
@@ -976,10 +983,11 @@
 <p class="admonition-title">Note</p>
 <p>Because this is a Smart Object, the filter appears as a <em>Smart Filter</em> underneath the layer — it is fully editable at any time.</p>
 </div>
-<p><img alt="Smart Filter appearing under the layer" src="../../assets/images/Screenshot%202026-03-05%20213745.png" /></p>
+<p><img alt="Smart Filter appearing under the layer" src="../../assets/images/Non-destructive/Screenshot%202026-03-05%20213745.png" /></p>
 <p><em>Figure 14: Smart Filter visible in the Layers panel</em></p>
 <hr />
 <h3 id="step-9-edit-the-smart-filter">Step 9: Edit the Smart Filter</h3>
+<p>After applying the Gaussian Blur in Step 8, you will see the filter name listed directly beneath the Smart Object layer in the Layers panel.</p>
 <ol>
 <li><strong>Double-click</strong> the Smart Filter name (e.g., <em>Gaussian Blur</em>) in the Layers panel</li>
 <li><strong>Adjust</strong> the slider to a new value</li>
@@ -1004,7 +1012,7 @@
 <hr />
 <h3 id="bonus">Bonus</h3>
 <p>To test your understanding, here is a finished Photoshop image that you should be able to recreate after going through this tutorial. It involves everything you have been taught.</p>
-<p><img alt="Bonus — completed Photoshop file showing all non-destructive techniques" src="../../assets/images/Screenshot%202026-03-08%20091209.png" /></p>
+<p><img alt="Bonus — completed Photoshop file showing all non-destructive techniques" src="../../assets/images/Non-destructive/Screenshot%202026-03-08%20091209.png" /></p>
 <p><em>Figure 15: Completed example using Adjustment Layers and Smart Objects</em></p>
 <h2 id="conclusion">Conclusion</h2>
 <p>You have successfully completed the Non-Destructive Editing tutorial. You now know how to use <em>Adjustment Layers</em> and <em>Smart Objects</em> to edit images safely in Photoshop without ever permanently altering your original image. These techniques are the foundation of professional photo editing and will be used throughout the rest of your careers.</p>
