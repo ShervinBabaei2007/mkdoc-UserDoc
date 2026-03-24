@@ -46,6 +46,3 @@ The following admonitions are used throughout this guide:
 
 !!! warning
     Indicates an action that could cause data loss or an irreversible change.
-
-!!! danger
-    Highlights a critical step that could damage your file if done incorrectly.
