@@ -94,7 +94,7 @@ Before you draw your shape, it is important to choose a fill color first. The fi
     If you do not see the Fill option at the top, make sure the Rectangle Tool is still selected — the options bar changes depending on which tool is active.
 
 !!! note
-    The **new** and **current** boxes at the top of the Color Picker let you compare your new color against the previous one before confirming. The small triangle (⚠️) that may appear is Photoshop's out-of-gamut warning — it means the color ma not print accurately, but is safe to ignore for digital projects. Click [OK] to continue.
+    The **new** and **current** boxes at the top of the Color Picker let you compare your new color against the previous one before confirming. The small triangle (⚠️) that may appear is Photoshop's out-of-gamut warning — it means the color may not print accurately, but is safe to ignore for digital projects. Click [OK] to continue.
 
 ---
 
