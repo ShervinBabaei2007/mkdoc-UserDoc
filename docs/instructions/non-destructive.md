@@ -25,7 +25,7 @@ This section will walk you through each step of non-destructive editing in Photo
 
 ### Step 1: Download the Practice Image
 
-**Download** the practice image here: [Click to Download](https://www.freepik.com/free-photo/adorable-british-shorthair-kitty-with-monochrome-wall-her*13863437.htm)
+**Download** the practice image here: [Click to Download](https://www.freepik.com/free-photo/adorable-british-shorthair-kitty-with-monochrome-wall-her*13863437.html)
 
 ![A British Shorthair cat wearing a yellow bow tie](../assets/images/Non-destructive/adorable-british-shorthair-kitty-with-monochrome-wall-her.jpg "Figure 1: Practice image — British Shorthair cat with bow tie")
 
