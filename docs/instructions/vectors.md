@@ -94,10 +94,7 @@ Before you draw your shape, it is important to choose a fill color first. The fi
     If you do not see the Fill option at the top, make sure the Rectangle Tool is still selected — the options bar changes depending on which tool is active.
 
 !!! note
-    The small triangle icon (⚠️) that may appear next to your selected color is Photoshop's **out-of-gamut warning**. It means the color may not print accurately, but it is completely safe to ignore for digital projects like this one. Simply click [OK] to continue.
-
-!!! note
-    The **new** box at the top of the Color Picker shows your newly selected color, while **current** shows the color that was previously active. This lets you compare the two side by side before confirming your choice.
+    The **new** and **current** boxes at the top of the Color Picker let you compare your new color against the previous one before confirming. The small triangle (⚠️) that may appear is Photoshop's out-of-gamut warning — it means the color ma not print accurately, but is safe to ignore for digital projects. Click [OK] to continue.
 
 ---
 
@@ -213,6 +210,9 @@ One of the biggest advantages of working with vectors is that you can always go 
 
 !!! note
     The small hollow dots on your shape are **anchor points**, and the lines connecting them are **paths**. Moving a single anchor point only affects the paths directly connected to it, so you can make very precise adjustments to just one part of your shape without disturbing the rest of the outline.
+
+!!! note
+    If you cannot see the anchor points, click directly on the shape first with the Direct Selection Tool to make them visible.
 
 ---
 
