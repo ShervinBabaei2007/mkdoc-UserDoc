@@ -51,7 +51,7 @@ Once downloaded, **locate** the file in your **Downloads** folder — it will be
 
 Before making any edits, always duplicate your original layer to protect it. If you do not see the Layers panel, go to [Window] → [Layers] to open it.
 
-  ![Enabling layer panel](../assets/images/Non-destructive/image%20copy.png "Figure 2: Enabling layer panel"){width=150}
+  ![Enabling layer panel](../assets/images/Non-destructive/image%20copy.png "Figure 2: Enabling layer panel"){width=300}
 
   *Figure 2: Enabling layer panel*
 
