@@ -14,9 +14,6 @@ By the end of this section, you will be able to:
 
 ## Before You Begin
 
-!!! note
-    Make sure you have an image open in Photoshop before starting.
-
 !!! warning
     Avoid editing directly on the **Background** layer — always duplicate it first by pressing `Ctrl + J`.
 
