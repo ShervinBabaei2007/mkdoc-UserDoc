@@ -204,9 +204,21 @@ An open path is just a line — it has a starting point and an ending point that
 
 One of the biggest advantages of working with vectors is that you can always go back and fine-tune your shape after drawing it. The **Direct Selection Tool** lets you click on any individual anchor point and drag it to a new position, reshaping that part of your vector without affecting the rest of the shape or having to redraw anything from scratch.
 
-1. **Select** the *Direct Selection Tool* by pressing `A` on your keyboard — your cursor will change to a white arrow to indicate the tool is active
+  ![preview image](../assets/images/Pen%20tool/image2.png)
+
+  *Figure 13: A closed vector path ready for editing*
+
+1. **Select** the *Direct Selection Tool* by pressing `Shift + A` on your keyboard — your cursor will change to a white arrow to indicate the tool is active
+   ![preview of Direct Selection tool](../assets/images/Pen%20tool/image3.png)
+
+   *Figure 14: Direct selection tool*
+
 2. **Click** any anchor point on your shape to select it — the selected anchor point will turn solid blue, while unselected points remain hollow
 3. **Drag** the selected anchor point to a new position to adjust that portion of your shape — the surrounding paths will automatically update to follow the moved point
+
+   ![preview of step 2 and 3](../assets/images/Pen%20tool/image4.png)
+
+   *Figure 15: Preview of step 2 and 3*
 
 !!! note
     The small hollow dots on your shape are **anchor points**, and the lines connecting them are **paths**. Moving a single anchor point only affects the paths directly connected to it, so you can make very precise adjustments to just one part of your shape without disturbing the rest of the outline.
@@ -235,11 +247,11 @@ Now that you know the basics of both the Shape Tool and the Pen Tool, put your s
 
 ![Star and clover shapes showing filled vector versus anchor point structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193207.png)
 
-*Figure 13: Challenge — recreate the star and clover shapes using the Pen Tool*
+*Figure 16: Challenge — recreate the star and clover shapes using the Pen Tool*
 
 ![Christmas tree shape showing filled vector versus anchor point path structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193233.png)
 
-*Figure 14: Challenge — recreate the Christmas tree shape using the Pen Tool*
+*Figure 17: Challenge — recreate the Christmas tree shape using the Pen Tool*
 
 ---
 
