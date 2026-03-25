@@ -39,13 +39,13 @@ When you open Photoshop, you will land on the Home screen. From here, you need t
 
 1. **Open** Photoshop — you will see the Home screen with options to create or open a file
 
-    ![Photoshop home screen showing New File and Open buttons](../assets/images/shape%20tool/Screenshot%202026-03-10%20191024.png)
+    ![Photoshop home screen showing New File and Open buttons](../assets/images/shape%20tool/Screenshot%202026-03-10%20191024.png "Figure 1: Photoshop Home screen")
 
     *Figure 1: Photoshop Home screen*
 
 2. **Click** [File] → [New] or press `Ctrl + N` to open the new file dialog
 
-    ![File dropdown menu open with New highlighted at the top](../assets/images/shape%20tool/Screenshot%202026-03-10%20191211.png)
+    ![File dropdown menu open with New highlighted at the top](../assets/images/shape%20tool/Screenshot%202026-03-10%20191211.png "Figure 2: Navigating to File → New")
 
     *Figure 2: Navigating to File → New*
 
@@ -63,7 +63,7 @@ The Shape Tool is hidden in the left toolbar alongside several other shape optio
 1. **Right-click** the Shape Tool icon in the left toolbar — it looks like a small rectangle
 2. **Select** [Rectangle Tool] from the dropdown menu — you will see options including Ellipse, Triangle, Polygon, Star, Line, and Custom Shape
 
-    ![Shape tool dropdown menu showing Rectangle, Ellipse, Triangle, Polygon, Star, Line and Custom Shape tools](../assets/images/shape%20tool/Screenshot%202026-03-10%20191341.png)
+    ![Shape tool dropdown menu showing Rectangle, Ellipse, Triangle, Polygon, Star, Line and Custom Shape tools](../assets/images/shape%20tool/Screenshot%202026-03-10%20191341.png "Figure 3: Shape Tool options in the toolbar")
 
     *Figure 3: Shape Tool options in the toolbar*
 
@@ -79,14 +79,14 @@ Before you draw your shape, it is important to choose a fill color first. The fi
 1. **Click** the **Fill** color box in the top options bar — it is located at the top left of your screen once the Shape Tool is selected
 2. The **Color Picker** dialog will open — by default it shows black (`#000000`)
 
-    ![Color Picker dialog open showing default black color with hex field showing 000000](../assets/images/shape%20tool/Screenshot%202026-03-10%20191451.png)
+    ![Color Picker dialog open showing default black color with hex field showing 000000](../assets/images/shape%20tool/Screenshot%202026-03-10%20191451.png "Figure 4: Color Picker dialog with default black color")
 
     *Figure 4: Color Picker dialog with default black color*
 
 3. **Type** a hex color code in the `#` field at the bottom (e.g., `3760be` for blue) or **drag** the color sliders to visually pick a color you like
 4. **Click** [OK] to confirm your selected color
 
-    ![Color Picker with blue color selected showing hex value 3760be](../assets/images/shape%20tool/Screenshot%202026-03-10%20191639.png)
+    ![Color Picker with blue color selected showing hex value 3760be](../assets/images/shape%20tool/Screenshot%202026-03-10%20191639.png "Figure 5: Selecting a blue fill color (#3760be)")
 
     *Figure 5: Selecting a blue fill color (#3760be)*
 
@@ -105,7 +105,7 @@ Now that your tool and color are set up, you are ready to draw your first vector
 1. **Click and drag** on the canvas to draw your rectangle — the further you drag, the larger the shape will be
 2. **Release** the mouse when the shape is the size you want — you will see small blue anchor points appear at the corners and edges, confirming it has been created as a vector
 
-    ![Yellow rectangle drawn on canvas with blue anchor points visible at corners and edges](../assets/images/shape%20tool/Screenshot%202026-03-10%20191948.png)
+    ![Yellow rectangle drawn on canvas with blue anchor points visible at corners and edges](../assets/images/shape%20tool/Screenshot%202026-03-10%20191948.png "Figure 6: A rectangle vector shape drawn on the canvas")
 
     *Figure 6: A rectangle vector shape drawn on the canvas*
 
@@ -128,7 +128,7 @@ The Pen Tool is located in the left toolbar and has several sub-tools hidden und
 1. **Right-click** the Pen Tool icon in the left toolbar — it looks like the tip of a fountain pen nib
 2. **Select** [Pen Tool] from the dropdown menu — you will see options for Freeform Pen, Curvature Pen, and Anchor Point tools
 
-    ![Pen Tool dropdown showing Pen Tool, Freeform Pen Tool, Curvature Pen Tool, Add Anchor Point Tool, Delete Anchor Point Tool and Convert Point Tool](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192138.png)
+    ![Pen Tool dropdown showing Pen Tool, Freeform Pen Tool, Curvature Pen Tool, Add Anchor Point Tool, Delete Anchor Point Tool and Convert Point Tool](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192138.png "Figure 7: Pen Tool options in the toolbar")
 
     *Figure 7: Pen Tool options in the toolbar*
 
@@ -144,7 +144,7 @@ The Pen Tool works very differently from a regular drawing tool. Instead of draw
 !!! warning
     Before clicking, make sure the mode in the top options bar is set to **Shape** and not **Path** — otherwise your pen path will not create a filled vector layer.
 
-  ![Top options bar showing Shape mode selected](../assets/images/Pen%20tool/image.png)
+  ![Top options bar showing Shape mode selected](../assets/images/Pen%20tool/image.png "Figure 8: Top options bar set to Shape mode")
 
   *Figure 8: Top options bar set to Shape mode*
 
@@ -152,7 +152,7 @@ The Pen Tool works very differently from a regular drawing tool. Instead of draw
 2. **Click** a second location on the canvas to place another anchor point — Photoshop will automatically draw a straight line connecting the two points
 3. **Click and drag** instead of just clicking to create a **curved** path between points — as you drag, you will see a curve handle appear that controls the direction and intensity of the curve
 
-    ![Two anchor points on the canvas connected by a smooth curved path with direction handles visible](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192407.png)
+    ![Two anchor points on the canvas connected by a smooth curved path with direction handles visible](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192407.png "Figure 9: A curved path created with two anchor points")
 
     *Figure 9: A curved path created with two anchor points*
 
@@ -169,7 +169,7 @@ Once you have placed your first few anchor points, you can continue building you
 2. **Click and drag** at each new point to add smooth curves wherever your shape needs to turn or flow naturally
 3. **Keep adding** points until your shape outline is almost complete — you should be able to see the rough shape forming from the connected paths
 
-    ![Multiple anchor points on canvas forming an incomplete curved blob shape](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192506.png)
+    ![Multiple anchor points on canvas forming an incomplete curved blob shape](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192506.png "Figure 10: Building a custom path with multiple anchor points")
 
     *Figure 10: Building a custom path with multiple anchor points*
 
@@ -185,11 +185,11 @@ An open path is just a line — it has a starting point and an ending point that
 1. **Hover** your cursor slowly over the very first anchor point you placed — watch carefully for a small circle icon to appear next to the pen cursor, which signals that you are positioned correctly to close the path
 2. **Click** on the first anchor point to close the path and complete your shape
 
-    ![Nearly closed path with cursor hovering near the starting anchor point](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192634.png)
+    ![Nearly closed path with cursor hovering near the starting anchor point](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192634.png "Figure 11: Hovering over the first anchor point to close the path")
 
     *Figure 11: Hovering over the first anchor point to close the path*
 
-    ![Fully closed path](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192716.png)
+    ![Fully closed path](../assets/images/Pen%20tool/Screenshot%202026-03-10%20192716.png "Figure 12: A completed closed vector path")
 
     *Figure 12: A completed closed vector path*
 
@@ -204,19 +204,19 @@ An open path is just a line — it has a starting point and an ending point that
 
 One of the biggest advantages of working with vectors is that you can always go back and fine-tune your shape after drawing it. The **Direct Selection Tool** lets you click on any individual anchor point and drag it to a new position, reshaping that part of your vector without affecting the rest of the shape or having to redraw anything from scratch.
 
-  ![preview image](../assets/images/Pen%20tool/image2.png)
+  ![preview image](../assets/images/Pen%20tool/image2.png "Figure 13: A closed vector path ready for editing")
 
   *Figure 13: A closed vector path ready for editing*
 
 1. **Select** the *Direct Selection Tool* by pressing `Shift + A` on your keyboard — your cursor will change to a white arrow to indicate the tool is active
-   ![preview of Direct Selection tool](../assets/images/Pen%20tool/image3.png)
+   ![preview of Direct Selection tool](../assets/images/Pen%20tool/image3.png "Figure 14: Direct selection tool")
 
    *Figure 14: Direct selection tool*
 
 2. **Click** any anchor point on your shape to select it — the selected anchor point will turn solid blue, while unselected points remain hollow
 3. **Drag** the selected anchor point to a new position to adjust that portion of your shape — the surrounding paths will automatically update to follow the moved point
 
-   ![preview of step 2 and 3](../assets/images/Pen%20tool/image4.png)
+   ![preview of step 2 and 3](../assets/images/Pen%20tool/image4.png "Figure 15: Preview of step 2 and 3")
 
    *Figure 15: Preview of step 2 and 3*
 
@@ -245,11 +245,11 @@ To preserve all of your vector layers and shapes, you must save your file in Pho
 
 Now that you know the basics of both the Shape Tool and the Pen Tool, put your skills to the test! The images below show two complex vector shapes alongside their underlying anchor point structures on the right side — study the position of each anchor point carefully before attempting to recreate the shapes using the Pen Tool.
 
-![Star and clover shapes showing filled vector versus anchor point structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193207.png)
+![Star and clover shapes showing filled vector versus anchor point structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193207.png "Figure 16: Challenge — recreate the star and clover shapes using the Pen Tool")
 
 *Figure 16: Challenge — recreate the star and clover shapes using the Pen Tool*
 
-![Christmas tree shape showing filled vector versus anchor point path structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193233.png)
+![Christmas tree shape showing filled vector versus anchor point path structure side by side](../assets/images/Pen%20tool/Screenshot%202026-03-10%20193233.png "Figure 17: Challenge — recreate the Christmas tree shape using the Pen Tool")
 
 *Figure 17: Challenge — recreate the Christmas tree shape using the Pen Tool*
 
