@@ -53,12 +53,14 @@ Before making any edits, always duplicate your original layer to protect it. If 
 
   <img src="../assets/images/Non-destructive/image%20copy.png" style="max-height: 400px; width: auto;" alt="Enabling the layer panel">
 
+  _Figure 2: Enabling layer panel_
+
 1. **Right-click** on the Background layer in the Layers panel
 2. **Select** [Duplicate Layer] or press `Ctrl + J`
 
     ![Duplicating the background layer](../assets/images/Non-destructive/Screenshot%202026-03-05%20212708.png)
 
-    _Figure 2: Duplicating the Background layer_
+    _Figure 3: Duplicating the Background layer_
 
 !!! warning
     Never edit directly on the Background layer — always work on a duplicate.
@@ -75,11 +77,11 @@ This section demonstrates what happens when you edit destructively, so you under
 
     ![Hue/Saturation dialog box](../assets/images/Non-destructive/Screenshot%202026-03-05%20210209.png)
 
-    _Figure 3: Adjusting Hue/Saturation destructively_
+    _Figure 4: Adjusting Hue/Saturation destructively_
 
     ![Result of destructive edit](../assets/images/Non-destructive/image.png)
 
-    _Figure 4: The image is permanently changed_
+    _Figure 5: The image is permanently changed_
 
 !!! warning
     This permanently changes your image pixels. If you close and reopen the file, you cannot undo this change.
@@ -99,25 +101,25 @@ Instead of editing the image directly, we will add an _Adjustment Layer_ on top.
 
     ![Adding a new Adjustment Layer](../assets/images/Non-destructive/Screenshot%202026-03-05%20211220.png)
 
-    _Figure 5: Adding a Hue/Saturation Adjustment Layer_
+    _Figure 6: Adding a Hue/Saturation Adjustment Layer_
 
 3. **Drag** the Hue slider to -137
 
     ![Dragging the Hue slider](../assets/images/Non-destructive/Screenshot%202026-03-05%20211724.png)
 
-    _Figure 6: Adjusting the Hue slider_
+    _Figure 7: Adjusting the Hue slider_
 
 4. **Click** the **eye icon** (the small eye symbol on the far left of the layer row) next to the Adjustment Layer in the Layers panel to toggle it on and off
 
     ![Toggling the Adjustment Layer visibility](../assets/images/Non-destructive/Screenshot%202026-03-05%20211852.png)
 
-    _Figure 7: Toggling the Adjustment Layer on and off_
+    _Figure 8: Toggling the Adjustment Layer on and off_
 
 5. **Double-click** the Adjustment Layer thumbnail at any time to go back and change the values
 
     ![Double-clicking the Adjustment Layer](../assets/images/Non-destructive/Screenshot%202026-03-05%20212253.png)
 
-    _Figure 8: Re-editing the Adjustment Layer_
+    _Figure 9: Re-editing the Adjustment Layer_
 
 !!! note
     The Adjustment Layer sits _above_ your image and never touches the original pixels — you can modify or delete it at any time.
@@ -134,7 +136,7 @@ Keeping your layers organized will save you a lot of confusion later.
 
     ![Renaming a layer](../assets/images/Non-destructive/Screenshot%202026-03-05%20212925.png)
 
-    _Figure 9: Renaming the layer_
+    _Figure 10: Renaming the layer_
 
 ---
 
@@ -147,13 +149,13 @@ Converting to a _Smart Object_ allows you to apply filters non-destructively.
 
     ![Converting to Smart Object](../assets/images/Non-destructive/Screenshot%202026-03-05%20213145.png)
 
-    _Figure 10: Converting the layer to a Smart Object_
+    _Figure 11: Converting the layer to a Smart Object_
 
 3. **Confirm** the conversion by looking for the small icon on the layer thumbnail
 
     ![Smart Object icon on layer](../assets/images/Non-destructive/Screenshot%202026-03-05%20213224.png)
 
-    _Figure 11: Smart Object icon confirming the conversion_
+    _Figure 12: Smart Object icon confirming the conversion_
 
 !!! note
     The small icon on the layer thumbnail confirms it is now a Smart Object. This means any filters you apply will be editable and non-destructive. When you **double-click** on it, Photoshop opens the Smart Object as a separate file (`.psb`). You can move any layers or content related to your edit into this Smart Object to keep things organized. Any edits made inside will apply back to your original file. **Save and close** the tab when done to see your changes reflected.
@@ -166,21 +168,21 @@ Converting to a _Smart Object_ allows you to apply filters non-destructively.
 
     ![Navigating to Gaussian Blur](../assets/images/Non-destructive/Screenshot%202026-03-05%20213519.png)
 
-    _Figure 12: Opening the Gaussian Blur filter_
+    _Figure 13: Opening the Gaussian Blur filter_
 
 2. **Drag** the radius slider to around **5–10 pixels** to see a visible blur effect on your image
 3. **Click** [OK]
 
     ![Gaussian Blur dialog](../assets/images/Non-destructive/Screenshot%202026-03-05%20213634.png)
 
-    _Figure 13: Adjusting the Gaussian Blur radius_
+    _Figure 14: Adjusting the Gaussian Blur radius_
 
 !!! note
     Because this is a Smart Object, the filter appears as a _Smart Filter_ underneath the layer — it is fully editable at any time.
 
 ![Smart Filter appearing under the layer](../assets/images/Non-destructive/Screenshot%202026-03-05%20213745.png)
 
-_Figure 14: Smart Filter visible in the Layers panel_
+_Figure 15: Smart Filter visible in the Layers panel_
 
 ---
 
@@ -216,7 +218,7 @@ To test your understanding, here is a finished Photoshop image that you should b
 
 ![Bonus — completed Photoshop file showing all non-destructive techniques](../assets/images/Non-destructive/Screenshot%202026-03-08%20091209.png)
 
-_Figure 15: Completed example using Adjustment Layers and Smart Objects_
+_Figure 16: Completed example using Adjustment Layers and Smart Objects_
 
 ## Conclusion
 
