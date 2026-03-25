@@ -51,7 +51,7 @@ Once downloaded, **locate** the file in your **Downloads** folder — it will be
 
 Before making any edits, always duplicate your original layer to protect it. If you do not see the Layers panel, go to [Window] → [Layers] to open it.
 
-  ![Enabling the layer panel](../assets/images/Non-destructive/image%20copy.png)
+  <img src="../assets/images/Non-destructive/image%20copy.png" width="250" alt="Enabling the layer panel">
 
 1. **Right-click** on the Background layer in the Layers panel
 2. **Select** [Duplicate Layer] or press `Ctrl + J`
