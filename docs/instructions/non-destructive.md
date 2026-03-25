@@ -27,6 +27,8 @@ This section will walk you through each step of non-destructive editing in Photo
 
 **Download** the practice image here: [Click to Download](../assets/images/Non-destructive/adorable-british-shorthair-kitty-with-monochrome-wall-her.jpg)
 
+Once the image opens in your browser, **right-click** on it and select **[Save Image As]** to save it to your **Downloads** folder.
+
 ![A British Shorthair cat wearing a yellow bow tie](../assets/images/Non-destructive/adorable-british-shorthair-kitty-with-monochrome-wall-her.jpg "Figure 1: Practice image — British Shorthair cat with bow tie")
 
 *Figure 1: Practice image — British Shorthair cat with bow tie*
