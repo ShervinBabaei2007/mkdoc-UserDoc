@@ -4,7 +4,7 @@ A beginner-friendly how-to guide for Adobe Photoshop, built with MkDocs Material
 
 ## Live Site
 
-[View the guide here]([https://your-github-pages-url-here](https://shervinbabaei2007.github.io/mkdoc-UserDoc/))
+[View the guide here](https://shervinbabaei2007.github.io/mkdoc-UserDoc/)
 
 ---
 
