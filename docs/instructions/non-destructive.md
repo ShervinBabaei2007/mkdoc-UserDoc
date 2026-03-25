@@ -2,7 +2,7 @@
 
 ## Overview
 
-Non-destructive editing allows you to make changes to an image without permanently altering the original pixels. Instead of editing directly on the image, you work with *Adjustment Layers* and *Smart Objects* — meaning you can always undo, tweak, or remove any change at any point without losing quality. This is the recommended way to edit in Photoshop, especially for beginners, as it gives you full creative freedom without the risk of ruining your original image.
+Non-destructive editing allows you to make changes to an image without permanently altering the original pixels. Instead of editing directly on the image, you work with *Adjustment Layers* and *Smart Objects*,  meaning you can always undo, tweak, or remove any change at any point without losing quality. This is the recommended way to edit in Photoshop, especially for beginners, as it gives you full creative freedom without the risk of ruining your original image.
 
 ## What You Will Learn
 
@@ -15,7 +15,7 @@ By the end of this section, you will be able to:
 ## Before You Begin
 
 !!! warning
-    Avoid editing directly on the **Background** layer — always duplicate it first by pressing `Ctrl + J`.
+    Avoid editing directly on the **Background** layer, always duplicate it first by pressing `Ctrl + J`.
 
 ---
 
@@ -31,7 +31,7 @@ This section will walk you through each step of non-destructive editing in Photo
 
 *Figure 1: Practice image — British Shorthair cat with bow tie*
 
-Once downloaded, **locate** the file in your **Downloads** folder — it will be saved as a `.jpg` file.
+Once downloaded, **locate** the file in your **Downloads** folder, it will be saved as a `.jpg` file.
 
 ---
 
@@ -63,7 +63,7 @@ Before making any edits, always duplicate your original layer to protect it. If 
     *Figure 3: Duplicating the Background layer*
 
 !!! warning
-    Never edit directly on the Background layer — always work on a duplicate.
+    Never edit directly on the Background layer, always work on a duplicate.
 
 ---
 
